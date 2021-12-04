@@ -132,14 +132,14 @@
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
+    // $('#portfolio-flters li').on('click', function() {
+    //   $("#portfolio-flters li").removeClass('filter-active');
+    //   $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
-        filter: $(this).data('filter')
-      });
-    });
+    //   portfolioIsotope.isotope({
+    //     filter: $(this).data('filter')
+    //   });
+    // });
 
   });
 
